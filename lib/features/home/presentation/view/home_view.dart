@@ -25,9 +25,23 @@ class HomeView extends StatelessWidget {
               margin: EdgeInsets.all(16),
               child: CustomScrollView(
                 slivers: [
-                  SliverToBoxAdapter(child: HomeHeader()),
-                  SliverToBoxAdapter(child: Gap(16)),
-                  SliverToBoxAdapter(child: HomeSeach()),
+                  SliverAppBar(
+                    elevation: 0,
+                    pinned: true,
+                    floating: false,
+                    scrolledUnderElevation: 0,
+                    backgroundColor: AppColors.darkWhite,
+                    toolbarHeight: 200,
+                    flexibleSpace: Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 20,
+                        vertical: 5,
+                      ),
+                      child: Column(
+                        children: [HomeHeader(), Gap(16), HomeSeach()],
+                      ),
+                    ),
+                  ),
                   SliverToBoxAdapter(child: Gap(16)),
                   SliverToBoxAdapter(child: CategoreisListGenerate()),
                   SliverToBoxAdapter(child: Gap(16)),
