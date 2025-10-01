@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import '../../../../../core/constans/app_colors.dart';
@@ -5,7 +6,14 @@ import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/widgets/custom_text.dart';
 
 class BurgerGridViewItem extends StatelessWidget {
-  const BurgerGridViewItem({super.key,  required this.image, required this.title, required this.subTitle, required this.rate, required this.icon});
+  const BurgerGridViewItem({
+    super.key,
+    required this.image,
+    required this.title,
+    required this.subTitle,
+    required this.rate,
+    required this.icon,
+  });
   final String image, title, subTitle, rate;
   final IconData icon;
 
@@ -38,6 +46,8 @@ class BurgerGridViewItem extends StatelessWidget {
                   context,
                 ).copyWith(color: AppColors.backRed),
               ),
+              Spacer(),
+              Icon(CupertinoIcons.heart_fill, color: AppColors.main),
             ],
           ),
         ],

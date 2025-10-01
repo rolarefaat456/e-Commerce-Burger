@@ -28,7 +28,7 @@ class BurgersGridView extends StatelessWidget {
         crossAxisCount: 2,
         crossAxisSpacing: 12,
         mainAxisSpacing: 12,
-        childAspectRatio: 1 / 1.39,
+        childAspectRatio: 1 / 1.4,
       ),
     );
   }
