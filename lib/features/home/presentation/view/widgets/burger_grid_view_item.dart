@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:hungry/core/constans/routes.dart';
 import '../../../../../core/constans/app_colors.dart';
 import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/widgets/custom_text.dart';
@@ -20,7 +21,7 @@ class BurgerGridViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      onTap: () {},
+      onTap: () => Navigator.of(context).pushNamed(Routes.productDetailsRoute),
       title: Image.asset(image),
       subtitle: Column(
         children: [
@@ -28,13 +29,13 @@ class BurgerGridViewItem extends StatelessWidget {
             text: title,
             textStyle: AppTextStyle.style16w500(
               context,
-            ).copyWith(color: AppColors.backRed),
+            ).copyWith(color: AppColors.darkRed),
           ),
           CustomText(
             text: subTitle,
             textStyle: AppTextStyle.style16w400(
               context,
-            ).copyWith(color: AppColors.backRed),
+            ).copyWith(color: AppColors.darkRed),
           ),
           Row(
             children: [
@@ -44,7 +45,7 @@ class BurgerGridViewItem extends StatelessWidget {
                 text: rate,
                 textStyle: AppTextStyle.style12w400(
                   context,
-                ).copyWith(color: AppColors.backRed),
+                ).copyWith(color: AppColors.darkRed),
               ),
               Spacer(),
               Icon(CupertinoIcons.heart_fill, color: AppColors.main),

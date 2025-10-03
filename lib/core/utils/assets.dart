@@ -10,6 +10,8 @@ class Assets {
 
   static const String imagesCheeseBurger = "assets/images/cheeseBurger.png";
 
+  static const String imagesCold = "assets/images/cold.png";
+
   static const String imagesColeslaw = "assets/images/coleslaw.png";
 
   static const String imagesCrespyOnion = "assets/images/crespyOnion.png";
@@ -19,6 +21,8 @@ class Assets {
   static const String imagesFries = "assets/images/fries.png";
 
   static const String imagesHamburger = "assets/images/hamburger.png";
+
+  static const String imagesHot = "assets/images/hot.png";
 
   static const String imagesOnion = "assets/images/onion.png";
 

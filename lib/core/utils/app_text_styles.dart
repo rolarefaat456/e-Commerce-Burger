@@ -35,7 +35,7 @@ abstract class AppTextStyle {
       fontSize: getResponseFontSize(context, 24),
       fontWeight: FontWeight.w700,
       fontFamily: 'LuckiestGuy',
-      color: AppColors.backRed,
+      color: AppColors.darkRed,
       decoration: TextDecoration.none,
     );
   }
@@ -45,7 +45,7 @@ abstract class AppTextStyle {
       fontSize: getResponseFontSize(context, 24),
       fontWeight: FontWeight.w500,
       fontFamily: 'LuckiestGuy',
-      color: AppColors.backRed,
+      color: AppColors.darkRed,
       decoration: TextDecoration.none,
     );
   }
@@ -55,7 +55,14 @@ abstract class AppTextStyle {
       fontSize: getResponseFontSize(context, 32),
       fontWeight: FontWeight.w500,
       fontFamily: 'LuckiestGuy',
-      color: AppColors.backRed,
+      color: AppColors.darkRed,
+    );
+  }static TextStyle style32w400(context) {
+    return TextStyle(
+      fontSize: getResponseFontSize(context, 32),
+      fontWeight: FontWeight.w400,
+      fontFamily: 'ReemKufiInk',
+      color: AppColors.darkRed,
     );
   }
 
@@ -63,8 +70,17 @@ abstract class AppTextStyle {
     return TextStyle(
       fontSize: getResponseFontSize(context, 16),
       fontWeight: FontWeight.w500,
-      fontFamily: 'LuckiestGuy',
+      fontFamily: 'Roboto',
       color: AppColors.white,
+    );
+  }
+
+  static TextStyle style16w800(context) {
+    return TextStyle(
+      fontSize: getResponseFontSize(context, 16),
+      fontWeight: FontWeight.w800,
+      fontFamily: 'Roboto',
+      color: AppColors.darkRed,
     );
   }
 
@@ -74,6 +90,14 @@ abstract class AppTextStyle {
       fontWeight: FontWeight.w400,
       fontFamily: 'LuckiestGuy',
       color: AppColors.white,
+    );
+  }
+  static TextStyle style16w600(context) {
+    return TextStyle(
+      fontSize: getResponseFontSize(context, 16),
+      fontWeight: FontWeight.w600,
+      fontFamily: 'Roboto',
+      color: AppColors.darkRed,
     );
   }
 
@@ -94,13 +118,28 @@ abstract class AppTextStyle {
       color: AppColors.grey,
     );
   }
+  static TextStyle style12w500(context) {
+    return TextStyle(
+      fontSize: getResponseFontSize(context, 12),
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Roboto',
+      color: AppColors.white,
+    );
+  }
 
   static TextStyle style14w500(context) {
     return TextStyle(
       fontSize: getResponseFontSize(context, 14),
       fontWeight: FontWeight.w500,
       fontFamily: 'LuckiestGuy',
-      color: AppColors.backRed,
+      color: AppColors.darkRed,
+    );
+  }static TextStyle style18w600(context) {
+    return TextStyle(
+      fontSize: getResponseFontSize(context, 18),
+      fontWeight: FontWeight.w600,
+      fontFamily: 'Roboto',
+      color: AppColors.darkRed,
     );
   }
 }

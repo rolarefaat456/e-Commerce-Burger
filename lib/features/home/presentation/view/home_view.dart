@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 import 'package:hungry/core/constans/app_colors.dart';
 import 'package:hungry/features/home/presentation/manager/animated_category_cubit.dart';
-import 'widgets/burgers_grid_view.dart';
+import 'widgets/burgers_sliver_grid.dart';
 import 'widgets/categories_list_generate.dart';
 import 'widgets/home_header.dart';
 import 'widgets/home_search.dart';
@@ -47,7 +47,7 @@ class HomeView extends StatelessWidget {
                   SliverToBoxAdapter(child: Gap(16)),
                   SliverPadding(
                     padding: EdgeInsets.symmetric(horizontal: 16),
-                    sliver: BurgersGridView(),
+                    sliver: BurgersSliverGrid(),
                   ),
                 ],
               ),

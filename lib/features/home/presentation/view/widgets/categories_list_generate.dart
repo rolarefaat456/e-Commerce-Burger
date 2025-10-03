@@ -40,7 +40,7 @@ class CategoreisListGenerate extends StatelessWidget {
                       textStyle: AppTextStyle.style16w400(context).copyWith(
                         color: state.selectedIndex == index
                             ? AppColors.white
-                            : AppColors.backRed,
+                            : AppColors.darkRed,
                       ),
                     ),
                   ),

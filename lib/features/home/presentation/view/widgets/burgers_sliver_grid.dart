@@ -3,8 +3,8 @@ import '../../../../../core/constans/app_colors.dart';
 import '../../../data/models/burger_model.dart';
 import 'Burger_grid_view_item.dart';
 
-class BurgersGridView extends StatelessWidget {
-  const BurgersGridView({super.key});
+class BurgersSliverGrid extends StatelessWidget {
+  const BurgersSliverGrid({super.key});
 
   @override
   Widget build(BuildContext context) {
