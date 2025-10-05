@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hungry/core/constans/app_colors.dart';
-import 'package:hungry/features/auth/presentation/view/profile_view.dart';
-import 'package:hungry/features/cart/presentation/view/card_view.dart';
-import 'package:hungry/features/home/presentation/view/home_view.dart';
-import 'package:hungry/features/orderhistory/presentation/view/order_history_view.dart';
+import '../../../../core/constans/app_colors.dart';
+import '../../../auth/presentation/view/profile_view.dart';
+import '../../../cart/presentation/view/card_view.dart';
+import '../../../home/presentation/view/home_view.dart';
+import '../../../orderhistory/presentation/view/order_history_view.dart';
 
 class RootView extends StatefulWidget {
   const RootView({super.key});

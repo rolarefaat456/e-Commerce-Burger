@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:hungry/core/constans/app_colors.dart';
-import 'package:hungry/core/constans/routes.dart';
-import 'package:hungry/core/utils/assets.dart';
 
+import 'core/constans/app_colors.dart';
+import 'core/constans/routes.dart';
+import 'core/utils/assets.dart';
 import 'core/widgets/logo_widget.dart';
 
 class SplashView extends StatefulWidget {

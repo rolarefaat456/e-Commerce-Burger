@@ -1,4 +1,4 @@
-import 'package:hungry/core/utils/assets.dart';
+import '../../../../core/utils/assets.dart';
 
 class SlideOptionsModel {
   final String image, toppingName;

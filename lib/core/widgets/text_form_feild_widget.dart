@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:hungry/core/widgets/custom_text.dart';
+import 'custom_text.dart';
 
 import '../constans/app_colors.dart';
 import '../utils/app_text_styles.dart';

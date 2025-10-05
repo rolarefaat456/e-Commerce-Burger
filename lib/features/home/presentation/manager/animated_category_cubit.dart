@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+
 part 'animated_category_state.dart';
 
 class AnimatedCategoryCubit extends Cubit<AnimatedCategoryState> {

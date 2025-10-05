@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:hungry/core/constans/routes.dart';
+
 import '../../../../../core/constans/app_colors.dart';
+import '../../../../../core/constans/routes.dart';
 import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/widgets/custom_text.dart';
 

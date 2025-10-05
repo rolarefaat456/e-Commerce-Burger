@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hungry/features/auth/presentation/manager/password_obscure_cubit.dart';
+import '../../manager/password_obscure_cubit.dart';
 
 import '../../../../../core/constans/app_colors.dart';
 import '../../../../../core/widgets/text_form_feild_widget.dart';

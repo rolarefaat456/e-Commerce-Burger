@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+
 part 'password_obscure_state.dart';
 
 class PasswordObscureCubit extends Cubit<PasswordObscureState> {

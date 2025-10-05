@@ -1,7 +1,8 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'package:hungry/core/functions/on_generate_route.dart';
+
 import 'core/constans/routes.dart';
+import 'core/functions/on_generate_route.dart';
 
 void main() {
   runApp(DevicePreview(enabled: false, builder: (context) => Hungry()));

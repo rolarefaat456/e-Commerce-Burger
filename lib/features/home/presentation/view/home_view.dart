@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
-import 'package:hungry/core/constans/app_colors.dart';
-import 'package:hungry/features/home/presentation/manager/animated_category_cubit.dart';
+import '../../../../core/constans/app_colors.dart';
+import '../manager/animated_category_cubit.dart';
 import 'widgets/burgers_sliver_grid.dart';
 import 'widgets/categories_list_generate.dart';
 import 'widgets/home_header.dart';

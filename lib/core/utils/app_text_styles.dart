@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/core/constans/app_colors.dart';
+import '../constans/app_colors.dart';
 
 double getScaleFactor(BuildContext context) {
   double width = MediaQuery.sizeOf(context).width;
@@ -139,6 +139,13 @@ abstract class AppTextStyle {
       fontSize: getResponseFontSize(context, 18),
       fontWeight: FontWeight.w600,
       fontFamily: 'Roboto',
+      color: AppColors.darkRed,
+    );
+  }static TextStyle style18w500(context) {
+    return TextStyle(
+      fontSize: getResponseFontSize(context, 18),
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Inter',
       color: AppColors.darkRed,
     );
   }

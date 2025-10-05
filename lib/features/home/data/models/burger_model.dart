@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/core/utils/assets.dart';
+import '../../../../core/utils/assets.dart';
 
 class BurgerModel {
   final String image, title, subTitle, rate;

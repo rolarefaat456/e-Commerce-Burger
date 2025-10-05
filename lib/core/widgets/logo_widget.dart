@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:hungry/core/constans/app_colors.dart';
 
+import '../constans/app_colors.dart';
 import '../utils/app_text_styles.dart';
 
 class LogoWidget extends StatelessWidget {

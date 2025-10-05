@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 import '../../../../../core/constans/app_colors.dart';
 import '../../manager/slider_cubit.dart';
 
