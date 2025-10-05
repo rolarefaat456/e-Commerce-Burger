@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
 import '../../../../../core/constans/app_colors.dart';
+import '../../../../../core/constans/strings.dart';
 import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/utils/assets.dart';
 import '../../../../../core/widgets/custom_text.dart';
@@ -32,7 +33,7 @@ class ProductDetailsHeader extends StatelessWidget {
                       text: 'Your Burger to Your Tastes. Ultimate Experience',
                       style: AppTextStyle.style16w400(context).copyWith(
                         color: AppColors.darkRed,
-                        fontFamily: 'Roboto',
+                        fontFamily: roboto,
                       ),
                     ),
                   ],
@@ -43,7 +44,7 @@ class ProductDetailsHeader extends StatelessWidget {
                 text: 'Spicy',
                 textStyle: AppTextStyle.style16w500(
                   context,
-                ).copyWith(color: AppColors.darkRed, fontFamily: 'Roboto'),
+                ).copyWith(color: AppColors.darkRed, fontFamily: roboto),
               ),
               HeaderSliderWidget(),
               HeaderIconsWidget(),

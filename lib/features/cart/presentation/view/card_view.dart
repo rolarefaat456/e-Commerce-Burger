@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../core/constans/routes.dart';
 
 import '../../../../core/constans/app_colors.dart';
 import '../../../../core/widgets/custom_end.dart';
@@ -13,15 +14,15 @@ class CartView extends StatelessWidget {
       backgroundColor: AppColors.darkWhite,
       body: Column(
         children: [
-          Expanded(
-            child: CartListView(),
-          ),
+          Expanded(child: CartListView()),
           Material(
             color: AppColors.white,
             child: CustomEnd(
               title: 'Total',
               text: 'Checkout',
               price: '\$99.19',
+              onPressed: () =>
+                  Navigator.of(context).pushNamed(Routes.checkoutRoute),
             ),
           ),
         ],

@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../utils/app_text_styles.dart';
@@ -7,9 +6,14 @@ import 'custom_text.dart';
 
 class CustomEnd extends StatelessWidget {
   const CustomEnd({
-    super.key, required this.title, required this.text, required this.price,
+    super.key,
+    required this.title,
+    required this.text,
+    required this.price,
+    required this.onPressed,
   });
   final String title, text, price;
+  final VoidCallback onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +26,7 @@ class CustomEnd extends StatelessWidget {
         text: price,
         textStyle: AppTextStyle.style32w400(context),
       ),
-      trailing: CustomBtn(
-        text: text, onPressed: () {  },
-      ),
+      trailing: CustomBtn(text: text, onPressed: onPressed),
     );
   }
 }

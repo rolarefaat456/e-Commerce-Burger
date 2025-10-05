@@ -5,4 +5,6 @@ class Routes {
   static const String rootRoute = 'root';
   static const String productDetailsRoute = 'product';
   static const String cartRoute = 'cart';
+  static const String orderHistoryRoute = 'order-history';
+  static const String checkoutRoute = 'checkout';
 }

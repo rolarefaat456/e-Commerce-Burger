@@ -39,7 +39,7 @@ class ProductDetailsView extends StatelessWidget {
                   textStyle: AppTextStyle.style16w600(context),
                 ),
                 ToppingOrSildeListView(list: sideData, color: AppColors.main),
-                CustomEnd(title: 'Total', text: 'Add To Cart', price: '\$18.19',),
+                CustomEnd(title: 'Total', text: 'Add To Cart', price: '\$18.19', onPressed: () {  },),
               ],
             ),
           ),

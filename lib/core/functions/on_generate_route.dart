@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import '../../features/checkout/presentation/view/check_out_view.dart';
 import '../../features/auth/presentation/view/login_view.dart';
 import '../../features/auth/presentation/view/sign_up_view.dart';
 import '../../features/cart/presentation/view/card_view.dart';
+import '../../features/orderhistory/presentation/view/order_history_view.dart';
 import '../../features/products/presentation/view/product_details_view.dart';
 import '../../features/root/presentation/view/root_view.dart';
 import '../../splash_view.dart';
@@ -22,7 +24,10 @@ Route onGenerateRoute(RouteSettings setting) {
       return MaterialPageRoute(builder: (context) => ProductDetailsView());
     case Routes.cartRoute:
       return MaterialPageRoute(builder: (context) => CartView());
-
+    case Routes.orderHistoryRoute:
+      return MaterialPageRoute(builder: (context) => OrderHistoryView());
+    case Routes.checkoutRoute:
+      return MaterialPageRoute(builder: (context) => CheckOutView());
     default:
       return MaterialPageRoute(
         builder: (context) =>
