@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../core/constans/app_colors.dart';
 import '../../../../../core/utils/app_text_styles.dart';
-import '../../../../../core/widgets/custom_text.dart';
+import '../../../../../shared/widgets/custom_text.dart';
 import '../../../data/models/category_model.dart';
 import '../../manager/animated_category_cubit.dart';
 

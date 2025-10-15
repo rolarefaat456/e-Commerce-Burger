@@ -1,14 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../../shared/widgets/text_form_feild_widget.dart';
 import '../../manager/password_obscure_cubit.dart';
 
 import '../../../../../core/constans/app_colors.dart';
-import '../../../../../core/widgets/text_form_feild_widget.dart';
 
 class PasswordTextFormFeild extends StatelessWidget {
-  const PasswordTextFormFeild({super.key, required this.controller, required this.textHint});
+  const PasswordTextFormFeild({
+    super.key,
+    required this.controller,
+    this.textHint,
+    this.lableWidget,
+    this.isSolid = true,
+    this.readOnly = false,
+  });
   final TextEditingController controller;
-  final String textHint;
+  final String? textHint;
+  final Widget? lableWidget;
+  final bool isSolid, readOnly;
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +27,9 @@ class PasswordTextFormFeild extends StatelessWidget {
         builder: (context, state) {
           final cubit = context.read<PasswordObscureCubit>();
           return TextFormFeildWidget(
+            readOnly: readOnly,
+            isSolid: isSolid,
+            lableWidget: lableWidget,
             controller: controller,
             obscureText: cubit.isObscure,
             hintText: textHint,

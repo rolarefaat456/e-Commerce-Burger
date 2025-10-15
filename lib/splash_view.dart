@@ -4,7 +4,7 @@ import 'package:gap/gap.dart';
 import 'core/constans/app_colors.dart';
 import 'core/constans/routes.dart';
 import 'core/utils/assets.dart';
-import 'core/widgets/logo_widget.dart';
+import 'shared/widgets/logo_widget.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});

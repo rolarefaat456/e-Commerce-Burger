@@ -5,7 +5,8 @@ import '../../../../../core/constans/app_colors.dart';
 import '../../manager/is_cash_or_visa_cubit.dart';
 
 class IsSelectDeliveryOrVisa extends StatelessWidget {
-  const IsSelectDeliveryOrVisa({super.key});
+  const IsSelectDeliveryOrVisa({super.key,  this.iconColor = AppColors.white});
+  final Color ?iconColor;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class IsSelectDeliveryOrVisa extends StatelessWidget {
             onPressed: () => cubit.isSelecteDelivery(),
             icon: Icon(
               cubit.isSelected ? Icons.circle : Icons.circle_outlined,
-              color: AppColors.white,
+              color: iconColor,
             ),
           );
         },

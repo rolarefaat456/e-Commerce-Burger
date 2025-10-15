@@ -3,8 +3,8 @@ import 'package:gap/gap.dart';
 
 import '../../../../core/constans/app_colors.dart';
 import '../../../../core/utils/app_text_styles.dart';
-import '../../../../core/widgets/custom_end.dart';
-import '../../../../core/widgets/custom_text.dart';
+import '../../../../shared/widgets/custom_end.dart';
+import '../../../../shared/widgets/custom_text.dart';
 import '../../data/model/slide_options_model.dart';
 import '../../data/model/topping_model.dart';
 import 'widgets/product_details_header.dart';

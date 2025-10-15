@@ -38,7 +38,7 @@ class _RootViewState extends State<RootView> {
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           color: AppColors.main,
-          borderRadius: BorderRadius.circular(30),
+          // borderRadius: BorderRadius.circular(30),
         ),
         padding: EdgeInsets.all(8),
         child: BottomNavigationBar(

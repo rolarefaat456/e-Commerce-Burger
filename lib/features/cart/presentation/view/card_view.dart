@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/constans/routes.dart';
 
 import '../../../../core/constans/app_colors.dart';
-import '../../../../core/widgets/custom_end.dart';
+import '../../../../shared/widgets/custom_end.dart';
 import 'widgets/cart_list_view.dart';
 
 class CartView extends StatelessWidget {

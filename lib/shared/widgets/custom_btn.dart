@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-import '../constans/app_colors.dart';
-import '../utils/app_text_styles.dart';
+import '../../core/constans/app_colors.dart';
+import '../../core/utils/app_text_styles.dart';
 import 'custom_text.dart';
 
 class CustomBtn extends StatelessWidget {

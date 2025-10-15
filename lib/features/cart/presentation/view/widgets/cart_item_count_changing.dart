@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../core/utils/app_text_styles.dart';
-import '../../../../../core/widgets/custom_btn.dart';
-import '../../../../../core/widgets/custom_text.dart';
+import '../../../../../shared/widgets/custom_btn.dart';
+import '../../../../../shared/widgets/custom_text.dart';
 import '../../manager/cart_item_changing_cubit.dart';
 import 'icon_btn_cart.dart';
 

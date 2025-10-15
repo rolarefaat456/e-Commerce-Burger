@@ -4,7 +4,7 @@ import 'package:gap/gap.dart';
 
 import '../../../../../core/constans/app_colors.dart';
 import '../../../../../core/constans/routes.dart';
-import '../../../../../core/widgets/text_form_feild_widget.dart';
+import '../../../../../shared/widgets/text_form_feild_widget.dart';
 import 'custom_auth_btn.dart';
 import 'custom_text_btn.dart';
 import 'password_text_form_feild.dart';

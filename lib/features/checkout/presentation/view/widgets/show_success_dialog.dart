@@ -3,8 +3,8 @@
 
 import '../../../../../core/constans/app_colors.dart';
 import '../../../../../core/utils/app_text_styles.dart';
-import '../../../../../core/widgets/custom_btn.dart';
-import '../../../../../core/widgets/custom_text.dart';
+import '../../../../../shared/widgets/custom_btn.dart';
+import '../../../../../shared/widgets/custom_text.dart';
 
 Future<dynamic> showSuccess(BuildContext context) {
     return showDialog(

@@ -5,7 +5,7 @@ import '../../../../../core/constans/app_colors.dart';
 import '../../../../../core/constans/strings.dart';
 import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/utils/assets.dart';
-import '../../../../../core/widgets/custom_text.dart';
+import '../../../../../shared/widgets/custom_text.dart';
 import 'header_icon_widget.dart';
 import 'header_slider_widget.dart';
 

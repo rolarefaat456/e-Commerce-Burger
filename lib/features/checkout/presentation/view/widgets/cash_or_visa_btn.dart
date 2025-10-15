@@ -7,10 +7,12 @@ class CashOrVisaContainer extends StatelessWidget {
     required this.image,
     required this.color,
     required this.child,
+    this.iconColor,
   });
   final String image;
   final Widget child;
   final Color color;
+  final Color? iconColor;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,7 @@ class CashOrVisaContainer extends StatelessWidget {
         color: color,
         borderRadius: BorderRadius.circular(12),
       ),
-      child: CashOrVisaRow(image: image, child: child),
+      child: CashOrVisaRow(iconColor: iconColor, image: image, child: child),
     );
   }
 }

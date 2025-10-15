@@ -8,7 +8,7 @@ import '../../features/products/presentation/view/product_details_view.dart';
 import '../../features/root/presentation/view/root_view.dart';
 import '../../splash_view.dart';
 
-import '../constans/routes.dart';
+import '../../core/constans/routes.dart';
 
 Route onGenerateRoute(RouteSettings setting) {
   switch (setting.name) {

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import '../../../../core/constans/app_colors.dart';
 import '../../../../core/utils/app_text_styles.dart';
-import '../../../../core/widgets/logo_widget.dart';
+import '../../../../shared/widgets/logo_widget.dart';
 import 'widgets/sign_up_form.dart';
-import '../../../../core/widgets/custom_text.dart';
+import '../../../../shared/widgets/custom_text.dart';
 
 class SignUpView extends StatelessWidget {
   const SignUpView({super.key});
