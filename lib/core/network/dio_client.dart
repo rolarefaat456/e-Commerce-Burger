@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:hungry/core/constans/api_end_points.dart';
+import 'package:hungry/core/utils/pref_helper.dart';
 
 class DioClient {
   final Dio _dio = Dio(
@@ -20,8 +21,8 @@ class DioClient {
               options,
               handler,
             ) // keda b2olw w ana bb3t el token asna2 el atsal m3 el server
-            {
-              final token = '';
+            async {
+              final token = await PrefHelper.getToken();
               if (token != null && token.isNotEmpty) {
                 options.headers['Authorization'] = 'Bearer $token';
               }

@@ -1,12 +1,12 @@
-class ApiError { // model ll status elly btrg3ly 
+class ApiError {
+  // model ll status elly btrg3ly
   final String message;
   final int? statusCode;
 
-  ApiError({required this.message, required this.statusCode});
+  ApiError({required this.message, this.statusCode});
 
   @override
-  String toString(){
+  String toString() {
     return 'Error is $message statusCode is $statusCode';
   }
-
 }
